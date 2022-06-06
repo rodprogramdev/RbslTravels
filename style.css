@@ -153,6 +153,57 @@ https://electrictoolbox.com/css3-rounded-corner-input/
   padding-right: 70px;
 }
 
+
+
+.text-box{
+  position:absolute;
+  /*background-color:red;*/
+  left: 50%;
+  top: 50%;
+  width:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+}
+
+.primary-header {
+  color: rgb(230, 232, 238);/*#333333;*/
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+
+.primary-header--main{
+  
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 8px;
+/*background-color:pink;*/
+}
+
+.primary-header--sub{
+  font-size: 18px;
+  letter-spacing: 7px;
+/*background-color:green;*/
+}
+
+/************MEDIA QUERRY FOR HEADER SECTION*************/
+@media screen and (max-width: 600px) {
+
+
+  
+  .primary-header--main{
+    
+    font-size: 6rem;
+    font-weight: 400;
+  }
+
+  .primary-header--sub{
+    font-size: 1.7rem;
+    
+  }
+}
 /*************MEDIA QUERRY FOR NAVIGATION****************/
 
 @media screen and (max-width: 600px) {
@@ -235,40 +286,6 @@ form.nav__form::after {
 
 
 
-
-
-.text-box{
-  position:absolute;
-  /*background-color:red;*/
-  left: 50%;
-  top: 50%;
-  width:80%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-
-}
-
-.primary-header {
-  color: rgb(230, 232, 238);/*#333333;*/
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-  font-family: 'Bebas Neue', cursive;
-  
-}
-
-
-.primary-header--main{
-  
-  font-size: 70px;
-  font-weight: 700;
-  letter-spacing: 8px;
-/*background-color:pink;*/
-}
-
-.primary-header--sub{
-  font-size: 18px;
-  letter-spacing: 7px;
-/*background-color:green;*/
-}
 
 
 /*
