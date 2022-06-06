@@ -45,7 +45,10 @@ url('images/2076.jpg');
 background-color: #fff;
   background-position: center;
   position: relative;
-  
+
+
+
+
 /*
   #b7b8b6
   #4CB5F5
@@ -63,6 +66,13 @@ background-color: #fff;
  background-color:rgba(51, 80, 129, 0.308);
  
 }
+
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+
+
 .nav__container{
   display: flex;
   /*background-color: red;*/
@@ -70,6 +80,9 @@ background-color: #fff;
   justify-content:space-between;/*use to control how the items can be controlled in the main axis*/
   
 }
+
+
+
 /*
 .nav__logo-box {
 margin:20px;
@@ -138,6 +151,32 @@ https://electrictoolbox.com/css3-rounded-corner-input/
 .nav__search-box{
   padding-top: 27px;
   padding-right: 70px;
+}
+
+/*************MEDIA QUERRY FOR NAVIGATION****************/
+
+@media screen and (max-width: 600px) {
+  .nav ul {
+    /* background-color: green; */
+    /* font-size:16px; */
+    letter-spacing: .2rem;
+  }
+
+  a{
+    font-size: 1.2rem;
+  }
+
+  
+  a:hover{
+    font-size: 1.6rem;
+    
+  }
+
+  .nav__search-box{
+    display:none;
+  }
+  
+
 }
 
 input.rounded{
