@@ -179,8 +179,8 @@ https://electrictoolbox.com/css3-rounded-corner-input/
 
 
 .primary-header--main{
-  
-  font-size: 70px;
+  display:block;
+  font-size: 10rem;
   font-weight: 700;
   letter-spacing: 8px;
 /*background-color:pink;*/
@@ -342,7 +342,16 @@ Sample-image
   color:orangered;
 }*/
 
+.blog__container{
+  height: 100vh;
+  
 
+}
+
+.blog__container h2{
+  font-size:3rem;
+  padding: 4rem;
+}
 
 /*section about*/
 
@@ -383,10 +392,10 @@ Sample-image
 
 .about__parallax{
    /* The image used */
-   background-image: /*linear-gradient(to right bottom,
-   rgba(224, 235, 224, 0.774), 
-   rgba(255, 207, 121, 0.3)),*/
-   url("images/Rbslopezphotography--1.JPG");/*#CDB99C;Photo by Cliford Mervil from Pexels*/
+   background-image: /*linear-gradient(to right bottom,  */
+   /* rgb(255, 255, 255), 
+   rgba(255, 207, 121, 0.3)), */
+   url("images/Rbslopezphotography--1.JPG");/*#CDB99C;Photo by Cliford Mervil from Pexels */
 
    /* Set a specific height */
    min-height: 750px; 
@@ -408,6 +417,7 @@ Sample-image
   width: 49%;/*50% will not work for displaying them side by side, try to reduce this to 49% in the developers
   tools. Tell them that we prefer this over using float*/
   display: inline-block;
+  text-align: center;
   
 
 }
@@ -415,6 +425,7 @@ Sample-image
 .form__radio-input{
   /*opacity:0;*/
   display: none;
+  text-align:center;
 }
 
 .form__radio-label{
