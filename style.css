@@ -218,7 +218,7 @@ https://electrictoolbox.com/css3-rounded-corner-input/
   }
 
   a{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   
@@ -382,19 +382,19 @@ Sample-image
   
 }
 .about-h2{
-  color:  #1459c7fa;/*#1458c7;/*#6db9d5;/*rgba(15, 1, 75, 0.582);/*rgb(58, 66, 11);rgb(44, 11, 11);*/
+  color:  #f9fafdfa;/*#1458c7;/*#6db9d5;/*rgba(15, 1, 75, 0.582);/*rgb(58, 66, 11);rgb(44, 11, 11);*/
   text-align: center;
   font-size: 70px;
-  text-shadow: 0 5px 5px #ccc;/*0 0 3px #FF0000;*/
+  /* text-shadow: 0 5px 5px #ccc;0 0 3px #FF0000; */
   border:solid;
   border-radius: 10px;
 }
 
 .about__parallax{
    /* The image used */
-   background-image: /*linear-gradient(to right bottom,  */
-   /* rgb(255, 255, 255), 
-   rgba(255, 207, 121, 0.3)), */
+   background-image: linear-gradient(to right bottom,  
+    rgba(1, 33, 56, 0.516), 
+   rgba(33, 29, 24, 0.3)), 
    url("images/Rbslopezphotography--1.JPG");/*#CDB99C;Photo by Cliford Mervil from Pexels */
 
    /* Set a specific height */
@@ -431,7 +431,8 @@ Sample-image
 .form__radio-label{
   /*here we used the default font-size which is 1.6rem in value and we changd the pointer with a hand so that
   it would look like a link.*/
-  font-size: 1.6rem;
+  color: white;
+  font-size: 2rem;
   cursor: pointer;
   position: relative; /*parent element of radio button*/
   padding-left: 4rem; /*5rem then try to decrease it*/
@@ -550,6 +551,7 @@ because that is the one that we want to change each time that the radio input is
 */
 .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
   opacity: 1;
+  color:white;
 
 }
 
