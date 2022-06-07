@@ -579,7 +579,7 @@ Sample-image
 @media screen and (max-width: 600px) {
   .container__cards{
     flex-direction:column;
-    margin-top: 25rem;
+    margin-top: 35rem;
   }
 }
 
@@ -652,7 +652,7 @@ img {
 @media screen and (max-width: 600px) {
   
   .hr-line{
-    margin-top: 50rem;
+    margin-top: 60rem;
   }
 }
 /*Slideshow container*/
@@ -675,7 +675,7 @@ img {
 
 @media screen and (max-width: 600px) {
   .slider-container{
-    margin-top: 30rem;
+    margin-top: 10rem;
   }
 }
   
